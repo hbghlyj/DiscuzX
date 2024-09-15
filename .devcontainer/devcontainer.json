@@ -11,7 +11,6 @@
             "userGid": "1000",
             "upgradePackages": "true"
         },
-        "./local-features/apache-config": "latest",
         "ghcr.io/devcontainers/features/node:1": "none",
         "ghcr.io/devcontainers/features/git:1": "none"
     },
@@ -25,13 +24,7 @@
             // Set *default* container specific settings.json values on container create.
             "settings": {
                 "php.validate.executablePath": "/usr/local/bin/php"
-            },
-            // Add the IDs of extensions you want installed when the container is created.
-            "extensions": [
-                "xdebug.php-debug",
-                "bmewburn.vscode-intelephense-client",
-                "mrmlnc.vscode-apache"
-            ]
+            }
         }
     },
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
